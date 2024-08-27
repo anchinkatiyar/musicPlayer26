@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Player Music for Everyone</title>
+    <link rel="shortcut icon" href="icons8-spotify-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close invert">
+                <img src="img/close.svg" alt="close">
+            </div>
+
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img src="img/logo.svg" alt="logo" class="invert"></div>
+                <ul>
+                    <li><img src="img/home.svg" alt="home" class="invert">Home</li>
+                    <li><img src="img/search.svg" alt="search" class="invert">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="img/library.svg" alt="library" class="change-fill">
+                    <h2>Your library</h2>
+                </div>
+                <div class="songList rounded">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" alt="music" class="invert">
+                            <div class="songInfo">
+                                <div>SongName</div>
+                                <div>SongArtist</div>
+                            </div>
+                            <div class="playNow">
+                                <span>Play Now</span>
+                                <img src="playbar_images/play.svg" alt="play" class="invert">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Safety &amp; Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header rounded p-1">
+                <div class="nav">
+                    <img src="img/hamburger.svg" alt="hamburger" class="invert hamburger" id="hamburger">
+                    <img src="nav_svg/left.svg" alt="left" class="change-fill">
+                    <img src="nav_svg/right.svg" alt="right" class="change-fill">
+                </div>
+                <div class="buttons">
+                    <button class="black-white" id="signup"><a href="signup.html">Sign Up</a></button>
+                    <button class="white-black" id="signin"><a href="signup.html">Sign In</a></button>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="card-container">
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <!-- <div class="seeked"></div> -->
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="above">
+                        <div class="songInfoPlaybar"> </div>
+                        <div class="songButtons">
+                            <img id="previous" src="playbar_images/previous.svg" alt="previous">
+                            <img id="play" src="playbar_images/play.svg" alt="play">
+                            <img id="next" src="playbar_images/next.svg" alt="next">
+                        </div>
+                        <div class="songT-V">
+                            <div class="songTime"></div>
+                            <div class="volume">
+                                <img src="img/volume.svg" alt="volume" >
+                                
+                                <input type="range" name="volume" id="volume">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
+<!-- //Listenwithme.freewebhostmost.com -->
+<!-- 5:00:00 min -->
+ 
+<!-- <div class="card ">
+    <div class="play-btn">
+        <img src="play.svg" alt="play">
+    </div>
+    <img src="https://i.scdn.co/image/ab67706f00000002c900fae23e2a3cf42b0e1556" alt="playlist">
+    <h2>All Out 2000s</h2>
+    <p>The biggest songs of the 2000s. Cover: The Killers</p>
+</div> --> 

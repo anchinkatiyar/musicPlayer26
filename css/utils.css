@@ -1,0 +1,73 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.border{
+    border: 1px solid rgb(240, 21, 21);
+    margin:3px;
+}
+.bg-black{
+    background-color: black;
+    color: rgb(250, 251, 252);
+}
+.invert{
+    filter: invert(1);
+}
+.change-fill{
+    filter:invert(0.6);
+}
+.change-fill:hover{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 20px;
+}
+.black-white{
+    background-color: #000000;
+    color: rgb(221, 222, 223);
+}
+.white-black{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* WebKit (Safari/Chrome) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Thumb color */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Thumb color on hover */
+  }
+  
+  /* Firefox */
+  /* You might need to use some browser prefixes for older versions */
+  /* Example: -moz-scrollbar-thumb */
+  /* Example: -moz-scrollbar-track */
+  /* Example: -moz-scrollbar */
+  /* These properties are not as customizable as WebKit */
+  
+  
