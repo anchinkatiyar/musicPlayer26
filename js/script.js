@@ -8,7 +8,7 @@ let currentFolder;
 async function getSongs(folder) {
     currentFolder = folder;
     //using Fetch api get all the songs
-    let a = await fetch(`${folder}`);
+    let a = await fetch(`./${folder}`);
     // let a = await fetch(`http://127.0.0.1:5500/javascript_apna/Spotify_Clone/${folder}`);
     let response = await a.text();
     let div = document.createElement('div');
@@ -60,7 +60,7 @@ async function getSongs(folder) {
 //display albums
 async function displayAlbum(){
     // let a = await fetch(`http://127.0.0.1:5500/javascript_apna/Spotify_Clone/songs`);
-    let a = await fetch(`songs`);
+    let a = await fetch(`./songs`);
     let response = await a.text();
     // console.log(response);
     let div = document.createElement('div');
@@ -78,7 +78,7 @@ async function displayAlbum(){
                 let folder = Lis[idx].title;
                 //get meta data of folder
                 // let meta = await fetch(`http://127.0.0.1:5500/javascript_apna/Spotify_Clone/songs/${folder}/content.json`);
-                let meta = await fetch(`songs/${folder}/content.json`);
+                let meta = await fetch(`./songs/${folder}/content.json`);
                 let Mresponse = await meta.json();
                 // console.log(Mresponse);
                 
