@@ -28,3 +28,7 @@ The **Web Music Player** is a simple, responsive music player built with **HTML*
 1. Clone the repository:
    ```bash
    git clone <repository_url>
+
+### How It Looks
+To add images to your `README.md`, follow these steps:
+![Alt Text](path/to/your/image.png)
