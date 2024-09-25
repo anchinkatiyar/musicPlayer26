@@ -30,5 +30,12 @@ The **Web Music Player** is a simple, responsive music player built with **HTML*
    git clone <repository_url>
 
 ### How It Looks
-To add images to your `README.md`, follow these steps:
-![Alt Text](anchinkatiyar/musicPlayer26/1.png)
+![Alt Text](9.png)
+![Alt Text](8.png)
+![Alt Text](7.png)
+![Alt Text](6.png)
+![Alt Text](5.png)
+![Alt Text](4.png)
+![Alt Text](3.png)
+![Alt Text](2.png)
+![Alt Text](1.png)
